@@ -5,3 +5,33 @@ Projects that Metacrafters have assigned in the Blockchain course.
 
 # Description
 This repository contains the assignments
+All the projects of this repository are related to the Blockchain written in Solidity and JavaScript (languages).
+
+# Functions and Errors
+In this module i have written a contract including the statements below-
+require(): Used for validation and authorization checks. If the condition fails, reverts the transaction and provides a descriptive message.
+revert(): Explicitly reverts the transaction and provides an optional message. Used for more general error handling scenarios.
+assert(): Primarily for internal error checking and debugging. Should not be used for user-facing error messages.
+
+# Smart Contract Management 
+For this module i have created a contract using some functions called MyBank. Statements are explained below-
+Ownership: The owner variable stores the contract's owner address.
+Balance: The balance variable tracks the contract's available funds.
+Constructor: Sets the initial owner to the contract deployer.
+getBalance: Returns the current balance.
+deposit: Accepts ETH payments and adds them to the balance.
+onlyOwner modifier: Ensures only the owner can call functions with this modifier.
+withdraw: Allows the owner to withdraw funds, with a balance check.
+
+Frontend Interaction-
+1. Connect to Web3: Use a library like Web3.js to connect your frontend to the blockchain network.
+2. Fetch Contract Address: Retrieve the deployed contract's address.
+3. Create Contract Instance: Use Web3.js to create a contract instance for interaction.
+4. Call Contract Functions: Use the contract instance to call functions like getBalance(), deposit(), and withdraw(), passing necessary parameters and handling responses.
+
+
+# License
+This smart contract is licensed under the MIT License.
+
+# Author
+Jiffin Majo
