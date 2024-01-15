@@ -29,6 +29,16 @@ Frontend Interaction-
 3. Create Contract Instance: Use Web3.js to create a contract instance for interaction.
 4. Call Contract Functions: Use the contract instance to call functions like getBalance(), deposit(), and withdraw(), passing necessary parameters and handling responses.
 
+# Types of Functions
+1. Contract Initialization:
+Constructor Function: Sets the token's name and symbol during deployment, serving as its initial configuration.
+2. Token Management-
+Mint Function: Creates new tokens, increasing the total supply. Access is restricted to the contract owner using the onlyOwner modifier for security.
+Burn Function: Destroys existing tokens, decreasing the total supply. Its visibility depends on specific use cases, potentially requiring access restrictions.
+3. Token Transfers-
+Transfer Function: Enables token movement between accounts, facilitating transactions within the token ecosystem.
+4. Access Control-
+Modifier: The onlyOwner modifier safeguards sensitive functions like minting, ensuring only the contract owner can execute them.
 
 # License
 This smart contract is licensed under the MIT License.
