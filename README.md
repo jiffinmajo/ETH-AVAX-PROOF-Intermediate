@@ -40,6 +40,11 @@ Transfer Function: Enables token movement between accounts, facilitating transac
 4. Access Control-
 Modifier: The onlyOwner modifier safeguards sensitive functions like minting, ensuring only the contract owner can execute them.
 
+# Building on Avalanche
+This is the final assignment of the course, i am showing my contract making DEGEN token on the Avalanche fuji testnet.
+Executing the required and taught functions, and the user can mint, burn and transfer the token.
+I am also able to show the verified transactions on the snowtrace explorer of Avalanche
+
 # License
 This smart contract is licensed under the MIT License.
 
