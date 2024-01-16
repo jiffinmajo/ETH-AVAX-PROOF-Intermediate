@@ -39,8 +39,17 @@ This is the final assignment of the course, i am showing my contract making DEGE
 Executing the required and taught functions, and the user can mint, burn and transfer the token.
 I am also able to show the verified transactions on the snowtrace explorer of Avalanche
 
+# Getting Started
+# Installing
+There is no need to install any software, you can compile and run the code by visiting the given websites form your browser only.
+# Executing program
+To execute the code you can simply copy the code form the repository and then paste it too the compiler and then click on compile or run code.
+I have also provided my Loom video so that you can take the reference:
+
 # License
 This smart contract is licensed under the MIT License.
-
+Under jiffinmack@gmail.com
 # Author
 Jiffin Majo
+
+
