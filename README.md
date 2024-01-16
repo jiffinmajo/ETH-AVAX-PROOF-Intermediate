@@ -34,6 +34,8 @@ To execute the code you can simply copy the code form the repository and then pa
 * [Click here to run .sol file](https://remix.ethereum.org/)
 
 I have also provided my Loom video so that you can take the reference:
+https://www.loom.com/profile/jiffin-ca1d859d-b641-4ac6-9ba8-484442809705
+
 # Author
 This smart contract is licensed under Jiffin Majo
 Contact info:
