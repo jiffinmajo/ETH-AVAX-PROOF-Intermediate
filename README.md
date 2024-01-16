@@ -8,31 +8,17 @@ This repository contains the assignments
 All the projects of this repository are related to the Blockchain written in Solidity and JavaScript (languages).
 
 # Functions and Errors
-In this module i have written a contract including the statements below-
-require(): Used for validation and authorization checks. If the condition fails, reverts the transaction and provides a descriptive message.
-revert(): Explicitly reverts the transaction and provides an optional message. Used for more general error handling scenarios.
-assert(): Primarily for internal error checking and debugging. Should not be used for user-facing error messages.
+In this Project i have to write a contract which has the use of revert(),require() and assert() statement. So i have created a contract name FunctionAndError and inside this i have created a function which takes the input from the user like address and amount and then check for the ownership using require() statement an then check for the available balance is greater then the inputed amount using revert() statement and if true then complete the transection.
+
+At the end i have created a checkAssert function which has one assert() statement to check for the internal errors.
 
 # Smart Contract Management 
-For this module i have created a contract using some functions called MyBank. Statements are explained below-
-1. Ownership: The owner variable stores the contract's owner address.
-2. Balance: The balance variable tracks the contract's available funds.
-3. Constructor: Sets the initial owner to the contract deployer.
-4. getBalance: Returns the current balance.
-5. deposit: Accepts ETH payments and adds them to the balance.
-6. onlyOwner modifier: Ensures only the owner can call functions with this modifier.
-7. withdraw: Allows the owner to withdraw funds, with a balance check.
+For this project i have to create a contract which has some basic functions, So i have created a contract called MyBank and inside this i have created three functions one to check the balance and one to deposite and one for withdraw. i have added the modifier to withdraw so that only the owner can withdraw. And at the end i have connect it to frontend and interact from frontend.
 
 # Types of Functions
-1. Contract Initialization:
-Constructor Function: Sets the token's name and symbol during deployment, serving as its initial configuration.
-2. Token Management-
-Mint Function: Creates new tokens, increasing the total supply. Access is restricted to the contract owner using the onlyOwner modifier for security.
-Burn Function: Destroys existing tokens, decreasing the total supply. Its visibility depends on specific use cases, potentially requiring access restrictions.
-3. Token Transfers-
-Transfer Function: Enables token movement between accounts, facilitating transactions within the token ecosystem.
-4. Access Control-
-Modifier: The onlyOwner modifier safeguards sensitive functions like minting, ensuring only the contract owner can execute them.
+In this Project i have to create our own token so i have created a contract which ask for Token name And symbol at the time of deployment. After the deployment i have perform some operation like mint,burn,transfer.
+
+In mint function i have added a modifier so that only owner of that tocken can mint the token
 
 # Building on Avalanche
 This is the final assignment of the course, i am showing my contract making DEGEN token on the Avalanche fuji testnet.
