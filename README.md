@@ -44,12 +44,12 @@ I am also able to show the verified transactions on the snowtrace explorer of Av
 There is no need to install any software, you can compile and run the code by visiting the given websites form your browser only.
 # Executing program
 To execute the code you can simply copy the code form the repository and then paste it too the compiler and then click on compile or run code.
+* [Click here to run .js file](https://gitpod.io/workspaces/)
+* [Click here to run .sol file](https://remix.ethereum.org/)
 I have also provided my Loom video so that you can take the reference:
 
-# License
-This smart contract is licensed under the MIT License.
-Under jiffinmack@gmail.com
 # Author
-Jiffin Majo
-
+This smart contract is licensed under Jiffin Majo
+Contact info:
+Email: jiffinmack@gmail.com
 
