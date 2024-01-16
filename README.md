@@ -23,12 +23,6 @@ For this module i have created a contract using some functions called MyBank. St
 6. onlyOwner modifier: Ensures only the owner can call functions with this modifier.
 7. withdraw: Allows the owner to withdraw funds, with a balance check.
 
-Frontend Interaction-
-1. Connect to Web3: Use a library like Web3.js to connect your frontend to the blockchain network.
-2. Fetch Contract Address: Retrieve the deployed contract's address.
-3. Create Contract Instance: Use Web3.js to create a contract instance for interaction.
-4. Call Contract Functions: Use the contract instance to call functions like getBalance(), deposit(), and withdraw(), passing necessary parameters and handling responses.
-
 # Types of Functions
 1. Contract Initialization:
 Constructor Function: Sets the token's name and symbol during deployment, serving as its initial configuration.
