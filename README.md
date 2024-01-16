@@ -15,13 +15,13 @@ assert(): Primarily for internal error checking and debugging. Should not be use
 
 # Smart Contract Management 
 For this module i have created a contract using some functions called MyBank. Statements are explained below-
-Ownership: The owner variable stores the contract's owner address.
-Balance: The balance variable tracks the contract's available funds.
-Constructor: Sets the initial owner to the contract deployer.
-getBalance: Returns the current balance.
-deposit: Accepts ETH payments and adds them to the balance.
-onlyOwner modifier: Ensures only the owner can call functions with this modifier.
-withdraw: Allows the owner to withdraw funds, with a balance check.
+1. Ownership: The owner variable stores the contract's owner address.
+2. Balance: The balance variable tracks the contract's available funds.
+3. Constructor: Sets the initial owner to the contract deployer.
+4. getBalance: Returns the current balance.
+5. deposit: Accepts ETH payments and adds them to the balance.
+6. onlyOwner modifier: Ensures only the owner can call functions with this modifier.
+7. withdraw: Allows the owner to withdraw funds, with a balance check.
 
 Frontend Interaction-
 1. Connect to Web3: Use a library like Web3.js to connect your frontend to the blockchain network.
